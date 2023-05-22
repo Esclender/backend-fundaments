@@ -1,0 +1,29 @@
+{
+  "name": "backend-fundaments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/phone_book.js",
+    "dev": "nodemon ./src/phone_book.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "eslint": "^8.41.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22"
+  }
+}
