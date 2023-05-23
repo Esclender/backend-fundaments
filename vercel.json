@@ -1,5 +1,6 @@
 {
-  "build": [
+  "version": 2,
+  "builds": [
     {
       "src": "/phone_book.js",
       "use": "@vercel/node"
