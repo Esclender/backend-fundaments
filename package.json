@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines":{
+    "node": "14.x"
+  },
   "scripts": {
     "start": "node ./src/phone_book.js",
     "dev": "nodemon ./src/phone_book.js",
@@ -24,6 +27,7 @@
     "eslint-plugin-n": "^15.7.0",
     "eslint-plugin-promise": "^6.1.1",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.22"
+    "nodemon": "^2.0.22",
+    "vercel": "^29.4.0"
   }
 }
