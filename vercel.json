@@ -1,8 +1,8 @@
 {
   "build": [
     {
-      "src": "/src/(.*)",
-      "dest": "src/$1"
+      "src": "/phone_book.js",
+      "use": "@vercel/node"
     }],
   "routes": [
     {
