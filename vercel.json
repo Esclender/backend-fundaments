@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "/phone_book.js",
+      "src": "./src/phone_book.js",
       "use": "@vercel/node"
     }],
   "routes": [
